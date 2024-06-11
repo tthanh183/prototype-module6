@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+} 
+
+.container .content {
+    width: 80%;
+    padding: 20px;
+}
+
+.container .content form{
+    margin-bottom: 20px;
+}
+
+.container form label{
+    margin-right: 10px;
+}
+
+.container form input{
+    width: 200px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.total .incomeInput, .total .outcomeOutput {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.total .incomeInput label, .total .outcomeOutput label {
+    margin-right: 10px;
+}
+
+.total .incomeInput input, .total .outcomeOutput input {
+    flex: 1;
+}
+
+.print {
+    text-align: center;
+}
+
+.print button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
